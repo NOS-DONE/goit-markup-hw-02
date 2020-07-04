@@ -34,6 +34,8 @@ font-family: 'Roboto', sans-serif;
     --p-color: #757575;
 }
 
+/* Web Studio */
+
 body{
     font-family: var(--main-font);
     font-style: normal;
@@ -195,5 +197,45 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
+    color: #FFFFFF;
+}
+
+
+/* Portfolio */
+
+.button-list .button-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button-list .button-item:hover {
+    color: #FFFFFF;
+}
+
+.portfolio-list h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--h-color);
+}
+
+.portfolio-list .portfolio-list-item-product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio-list .portfolio-list-item-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
