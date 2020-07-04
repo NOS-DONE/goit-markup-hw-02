@@ -109,7 +109,7 @@ body{
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-color);
 }
 
 .about-title,
