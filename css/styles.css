@@ -212,8 +212,10 @@ footer {
     color: #212121;
 }
 
-.button-list .button-item:hover {
+.button-list .button-item:hover,
+.button-list .button-item:focus {
     color: #FFFFFF;
+    background-color: var(--accent-color);
 }
 
 .portfolio-list h2 {
